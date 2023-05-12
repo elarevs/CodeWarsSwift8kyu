@@ -1,15 +1,15 @@
-When provided with a number between 0-9, return it in words.
+// When provided with a number between 0-9, return it in words.
 
-Input :: 1
+// Input :: 1
 
-Output :: "One".
+// Output :: "One".
 
-If your language supports it, try using a switch statement.
+// If your language supports it, try using a switch statement.
 
-SOLUTION:
+// SOLUTION:
 
 func switchItUp(_ number: Int) -> String {
-switch number {
+  switch number {
   case 1 : return "One"
   case 2 : return "Two"
   case 3 : return "Three"
@@ -20,5 +20,5 @@ switch number {
   case 8 : return "Eight"
   case 9 : return "Nine"
   default : return "Zero"
-}
+  }
 }
