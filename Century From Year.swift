@@ -16,7 +16,7 @@
 // SOLUTION 1:
 
 func century(_ year: Int) -> Int {
-  (year + 99) / 100  
+  return (year + 99) / 100  
 }
 
 // SOLUTION 2:
