@@ -11,9 +11,9 @@
 
 func quarter(of month: Int) -> Int {
   switch month {
-    case 0...3 : return 1
-    case 4...6 : return 2
-    case 7...9 : return 3
-    default : return 4
+  case 0...3 : return 1
+  case 4...6 : return 2
+  case 7...9 : return 3
+  default : return 4
   }
 }
