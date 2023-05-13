@@ -6,6 +6,6 @@
 
 // SOLUTION:
 
-func check<T: Equatable>(_ a: [T], _ x: T) -> Bool {
-    a.contains(x) ? true : false
+func maps(a : Array<Int>) -> Array<Int> {
+    return a.map { $0 * 2}
 }
